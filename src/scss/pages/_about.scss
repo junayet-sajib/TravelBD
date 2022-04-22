@@ -1,0 +1,115 @@
+.about-us-page h1 {
+  color: #1ec860;
+  font-weight: 300;
+}
+
+.about-img img {
+  height: 358px;
+  width: auto;
+}
+
+.about-us {
+  h2 {
+    color: #222;
+    font-weight: 600;
+  }
+}
+
+.our-story {
+
+
+  p {
+    line-height: 30px;
+    letter-spacing: 1px;
+  }
+}
+
+section.chairman-msg {
+  color: rgb(139, 139, 139);
+}
+
+.c-man-text h4 {
+  letter-spacing: 2px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.c-man-image img {
+  border-radius: 5%;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+}
+
+.c-man-text h4 {
+  font-weight: 500;
+}
+
+.single-member {
+  border: none;
+  padding: 3px;
+
+  img {
+    max-height: 200px;
+    width: auto;
+  }
+}
+
+.team-text {
+  color: #222;
+  font-weight: 600;
+}
+
+.single-member-content {
+  h6 {
+    line-height: 31px;
+    font-weight: 600;
+    color: #4c4c4c;
+  }
+
+  p {
+    font-weight: 500;
+    letter-spacing: 2px;
+  }
+}
+
+a.btn.btn-warn {
+  box-shadow: 0 0px 10px rgba(55, 199, 182, 0.199);
+  padding: 10px 35px;
+  color: #222;
+}
+
+.single-member-inner {
+  box-shadow: 0 0 10px #e3e3e3;
+}
+
+.single-member-inner img {
+  min-height: 156px;
+}
+
+section.portfolio-sec {
+  background: #5b5b5b;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.portfolio-left h5 {
+  font-weight: 600;
+}
+
+.border-red {
+  border-bottom: 2px solid#f00;
+}
+
+.border-blue {
+  border-right: 2px solid #08008a;
+}
+
+
+//responsive
+@media (max-width: 767px) {
+  header.main-header.umrah-packages-bg {
+    // clip-path: none;
+  }
+}

@@ -1,0 +1,36 @@
+header.main-header.tour-package-bg {
+  background-color: white;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 74%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 74%, 0% 100%);
+
+}
+
+p.tour-pack-price {
+  position: absolute;
+  background: rgb(202, 131, 0);
+  padding: 16px;
+  left: 0;
+  color: #fff;
+  font-weight: 500;
+  top: -15px;
+}
+
+.single-place-p-details {
+  box-shadow: 0 0 10px #e7e7e7;
+  padding: 20px 0 20px 30px;
+}
+
+.why-choose-img2 img {
+  max-height: 130px;
+}
+
+.more-tour-pack-list .slick-slide {
+  margin: 10px;
+  padding-bottom: 20px;
+
+}
+
+.booking-btn {
+  width: 30%;
+  margin: 0 auto;
+}

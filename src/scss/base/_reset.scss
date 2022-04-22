@@ -1,0 +1,211 @@
+@charset "utf-8";
+/* CSS Document */
+/*--Fonts--*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+
+.montserrat-font {
+    font-family: 'Montserrat', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap');
+
+.lato-font {
+    font-family: 'Lato', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
+
+.opensans-font {
+    font-family: 'Open Sans', sans-serif;
+}
+
+@font-face {
+    font-family: "navis";
+    src: url("webfonts/nevis.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+    font-weight: normal;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #707070;
+    letter-spacing: 0.2px;
+
+
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+p {
+    margin: 0px !important;
+}
+
+a {
+    color: #5BAAA1;
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+a:active,
+a:focus,
+a:hover {
+    text-decoration: none;
+    outline: none;
+    color: #5BAAA1;
+    -webkit-transition: all ease-in-out 0.4s;
+    -moz-transition: all ease-in-out 0.4s;
+    -o-transition: all ease-in-out 0.4s;
+    -ms-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+
+}
+
+.btn:focus,
+a.btn:focus {
+    outline: none;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+hr {
+    box-sizing: border-box;
+    border: 1px solid $gray-color;
+    opacity: .2;
+    margin-top: 0.6rem;
+    margin-bottom: 24px;
+
+}
+
+textarea:focus,
+input:focus {
+    outline: none !important;
+}
+
+.table td,
+.table th {
+    padding: .25rem .25rem .25rem 0rem !important;
+    vertical-align: top;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+::-moz-selection {
+    background: #5BAAA1;
+    text-shadow: none;
+    color: #fff;
+}
+
+::selection {
+    background: #5BAAA1;
+    text-shadow: none;
+    color: #fff;
+}
+
+img::-moz-selection {
+    background: transparent;
+}
+
+img::selection {
+    background: transparent;
+}
+
+img::-moz-selection {
+    background: transparent;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+
+/*--Row and Rows--*/
+.row.rows {
+    margin: -15px;
+}
+
+.row.rows .columns {
+    padding: 15px;
+}
+
+/*--Custom Row and Column--*/
+.custom-row {
+    margin: -5px -10px;
+}
+
+.custom-column {
+    padding: 5px 10px;
+}
+
+
+/*--Other Common Classes--*/
+.rounded {
+    border-radius: 10px !important;
+}
+
+.box-shadow-10 {
+    -webkit-transition: all ease-in-out 0.3s;
+    -moz-transition: all ease-in-out 0.3s;
+    -o-transition: all ease-in-out 0.3s;
+    -ms-transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.3s;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.16);
+}
+
+.box-shadow-12 {
+    -webkit-transition: all ease-in-out 0.3s;
+    -moz-transition: all ease-in-out 0.3s;
+    -o-transition: all ease-in-out 0.3s;
+    -ms-transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.3s;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.16);
+}
+
+.box-shadow-12:hover {
+    z-index: 9999;
+    box-shadow: 0 15px 20px rgba(91, 170, 161, 0.199);
+    transform: translateY(-3px);
+    -webkit-transform: translateY(-3px);
+
+}
+
+.font-weight-600 {
+    font-weight: 600;
+}

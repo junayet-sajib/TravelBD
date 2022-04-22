@@ -1,0 +1,53 @@
+header.main-header.visa-pro-bg {
+  background: #6b2a00;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 74%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 74%, 0% 100%);
+
+}
+
+.header-visa-img img {
+  border-radius: 2%;
+}
+
+.card.collapse-country-inner {
+  background: none;
+}
+
+.card.collapse-country-inner .card-header {
+  background: #e3e3e3;
+  border: none;
+  padding: 10px;
+}
+
+.visa-req-details ul li:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f14a";
+  margin-right: 15px;
+}
+
+.card.collapse-country-inner {
+  border: none;
+}
+
+.card.collapse-country-inner .card-header h2 button {
+  color: #757575;
+  text-decoration: none;
+}
+
+.card.collapse-country-inner .card-header h2 button:after {
+  font-family: "Font Awesome 5 Free";
+  content: "\f078";
+  float: right;
+  margin-left: 15px;
+}
+
+/* Icon when the collapsible content is hidden */
+.card.collapse-country-inner .card-header h2 button.collapsed:after {
+  content: "\e080";
+  font-family: "Font Awesome 5 Free";
+  content: "\f054";
+}
+
+.card.collapse-country-inner .card-header h2 button:hover {
+  text-decoration: none;
+}

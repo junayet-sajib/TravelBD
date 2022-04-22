@@ -1,0 +1,101 @@
+header.main-header.contact-page {
+  height: 70vh;
+  background: #380000;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 74%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 74%, 0% 100%);
+}
+
+.card.contact-form {
+  border: none;
+  box-shadow: 2px 2px 20px #d5d5d2;
+  padding: 25px;
+}
+
+.card.contact-form .card-header,
+h3 {
+  background: none;
+  letter-spacing: 2px;
+  font-family: monospace, sans-serif;
+}
+
+.map-container-5 {
+  overflow: hidden;
+  height: 0;
+
+}
+
+.map-container-5 iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  box-shadow: 2px 2px 20px #d5d5d2;
+  padding: 90px 25px 25px 25px;
+}
+
+ul.footer-link li {
+  padding: 8px 0;
+}
+
+.row.office-add-inner-main {
+  box-shadow: 0 0 10px #e9e7e7;
+}
+
+.office-add-inner {
+  position: relative;
+}
+
+.office-add-inner h5 {
+  position: relative;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.office-add-inner h5:before {
+  position: absolute;
+  border-bottom: 1px solid#00c070;
+  content: "";
+  width: 33%;
+  margin: 0 auto;
+  bottom: 0;
+  left: 11%;
+  right: 10%;
+}
+
+.office-add-inner:before {
+  content: "";
+  top: 0;
+  right: 0;
+  border-right: 10px solid#f78900;
+  position: absolute;
+  z-index: 9;
+  height: 100%;
+  transition: all .5s;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -ms-transition: all .5s;
+  -o-transition: all .5s;
+}
+
+.office-add-inner:hover {
+  &:before {
+    border-right: 20px solid#133870;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+  }
+}
+
+//responsive
+@media(max-width: 767px) {
+  .card.contact-form {
+    padding: 25px 0;
+  }
+
+  header.main-header.contact-page {
+    height: 31rem;
+  }
+}

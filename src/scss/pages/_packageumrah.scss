@@ -1,0 +1,142 @@
+header.main-header.umrah-packages-bg {
+  background: #380000;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 74%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 74%, 0% 100%);
+  height: 80vh;
+}
+
+.single-img-carousel img {
+  max-height: 350px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+ul.nav.nav-tabs.custom-tab li {
+  background: #333 !important;
+  padding: 10px;
+  margin: 0px 10px;
+  color: #fff;
+  border-radius: 4px;
+  transition: all .5s;
+
+}
+
+ul.nav.nav-tabs.custom-tab {
+  background: #c8c8c8;
+  padding: 30px 30px;
+}
+
+ul.nav.nav-tabs.custom-tab li a {
+  color: #fff;
+  font-family: initial;
+  font-weight: 100;
+}
+
+ul.nav.nav-tabs.custom-tab li:hover {
+  background: #00ad9d !important;
+  transition: all .5s;
+}
+
+.nav-tabs {
+  border-bottom: none;
+}
+
+.fade:not(.show) {
+  opacity: 1;
+}
+
+.details-pack-inn {
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 12px 30px;
+  min-height: 500px;
+  background: #efefef;
+  text-align: left;
+}
+
+.policy-all {
+  padding: 25px 10px 10px 15px;
+  box-shadow: 0px 5px 20px #dadada;
+  min-height: 200px;
+
+  h5 {
+    color: #f00;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+}
+
+.single-hotel {
+  box-shadow: 0 0 15px #c1c1c1;
+  padding: 30px 10px;
+  background: #efefef;
+  /* border-radius: 10px; */
+  padding: 40px;
+}
+
+.p-price-title {
+  font-weight: 600;
+  color: #222;
+}
+
+.p-p-tittle {
+  background: #efefef;
+  padding-left: 10px;
+  font-weight: 500;
+  box-shadow: 0 0 10px #cecece;
+  border-radius: 10px;
+
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.table td,
+.table th {
+  padding: 15px 10px !important;
+}
+
+.remarks-others {
+  box-shadow: 0 0 10px #cecece;
+  border-radius: 10px;
+
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.itinerary-time-inner {
+  background: #efefef;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+div#itinerary h2 {
+  font-weight: 700;
+}
+
+.more-umrah-pack-list .slick-slide {
+  margin: 10px;
+  padding-bottom: 20px;
+
+}
+
+@media(max-width:767px) {
+  header.main-header.umrah-packages-bg {
+    clip-path: none;
+  }
+
+  ul.nav.nav-tabs.custom-tab {
+    padding: 35px 5px;
+  }
+
+  .details-pack-inn {
+    min-height: 380px;
+  }
+
+  ul.nav.nav-tabs.custom-tab li {
+    margin: 1px;
+  }
+}

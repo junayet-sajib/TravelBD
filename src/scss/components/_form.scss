@@ -1,0 +1,77 @@
+input:focus {
+  outline: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: $gray-color !important;
+  font-family: $open-sans;
+  font-size: 18px !important;
+  font-weight: 500;
+  line-height: 24px;
+
+}
+
+label {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: $open-sans;
+  line-height: 24px;
+  padding-bottom: 6px;
+
+}
+
+.form-control {
+  height: 65px;
+  border: none !important;
+  border-radius: 4px;
+  background-color: #ececec;
+  margin-bottom: 27px !important;
+
+}
+.time-picker{
+  border: 1px solid $gray-color;
+  padding: 4px 4px;
+} 
+
+.form-group {
+  margin-bottom: 0rem !important;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.custom-control-label::after {
+  top: .4rem;
+  left: -1.4rem;
+  background: no-repeat 63%/83% 83%;
+}
+.custom-control-label {
+  padding-left: 15px;
+  padding-top: 3px;
+}
+.custom-checkbox .custom-control-label::before {
+  background-color:transparent;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 0px;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+  border-color: transparent;
+  background-color: $green-bg-color;
+  border: 0px;
+}
+@media(max-width:767px) {
+  .time-picker{
+    border: 1px solid $gray-color;
+    padding: 2px 2px;
+    font-size: 14px!important;
+  } 
+  .table{
+    .custom-control-label{
+      font-size: 15px!important;
+    }
+    h6{
+      font-size: 15px!important;
+    }
+  }
+}
